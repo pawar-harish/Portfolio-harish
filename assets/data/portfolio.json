@@ -1,0 +1,405 @@
+{
+    "personalInfo": {
+        "name": "Harish Pawar",
+        "title": "Web & Mobile App Developer",
+        "email": "harish28pawar@gmail.com",
+        "phone": "+91-7566696512",
+        "location": "Indore (M.P) - 452011",
+        "dateOfBirth": "28-10-1994",
+        "linkedin": "https://linkedin.com/in/harish-pawar-65109a114",
+        "github": "https://github.com/Hharish28",
+        "website": "",
+        "bio": "A passionate Web & Mobile App Developer with experience crafting high-performance applications. I love turning complex problems into elegant, responsive user interfaces. I specialize in building scalable applications using Angular, Ionic, and TypeScript.",
+        "profileImage": "",
+        "resumeUrl": "",
+        "yearsOfExperience": 3,
+        "statistics": {
+            "projectsCompleted": 15,
+            "happyClients": 12,
+            "technologiesMastered": 10
+        }
+    },
+    "skills": [
+        {
+            "name": "Angular",
+            "category": "frontend",
+            "description": "Enterprise-grade framework for building scalable, dynamic single-page applications",
+            "icon": "assets/svg/skills/angular.svg",
+            "faClass": "fab fa-angular"
+        },
+        {
+            "name": "Ionic",
+            "category": "frontend",
+            "description": "Hybrid framework for building performant cross-platform mobile applications",
+            "icon": "assets/svg/skills/ionic.svg",
+            "faClass": "fab fa-node-js"
+        },
+        {
+            "name": "TypeScript",
+            "category": "frontend",
+            "description": "Strongly-typed superset of JavaScript enabling robust, maintainable codebases",
+            "icon": "assets/svg/skills/typescript.svg",
+            "faClass": "fab fa-js"
+        },
+        {
+            "name": "JavaScript",
+            "category": "frontend",
+            "description": "Versatile programming language powering interactive web experiences",
+            "icon": "assets/svg/skills/javascript.svg",
+            "faClass": "fab fa-js-square"
+        },
+        {
+            "name": "HTML",
+            "category": "frontend",
+            "description": "Semantic markup language for structuring accessible web content",
+            "icon": "assets/svg/skills/html.svg",
+            "faClass": "fab fa-html5"
+        },
+        {
+            "name": "CSS",
+            "category": "frontend",
+            "description": "Cascading stylesheets for crafting visually stunning, responsive layouts",
+            "icon": "assets/svg/skills/css.svg",
+            "faClass": "fab fa-css3-alt"
+        },
+        {
+            "name": "SCSS",
+            "category": "frontend",
+            "description": "Advanced CSS preprocessor enabling modular, maintainable stylesheets",
+            "icon": "assets/svg/skills/scss.svg",
+            "faClass": "fab fa-sass"
+        },
+        {
+            "name": "Bootstrap",
+            "category": "frontend",
+            "description": "Popular CSS framework for rapid, mobile-first responsive development",
+            "icon": "assets/svg/skills/bootstrap.svg",
+            "faClass": "fab fa-bootstrap"
+        },
+        {
+            "name": "Angular Material",
+            "category": "frontend",
+            "description": "Comprehensive UI component library implementing Google's Material Design",
+            "icon": "assets/svg/skills/angular-material.svg",
+            "faClass": "fas fa-palette"
+        },
+        {
+            "name": "NodeJS",
+            "category": "backend",
+            "description": "High-performance JavaScript runtime for scalable server-side applications",
+            "icon": "assets/svg/skills/nodejs.svg",
+            "faClass": "fab fa-node-js"
+        },
+        {
+            "name": "Express",
+            "category": "backend",
+            "description": "Minimalist, flexible Node.js framework for building robust APIs",
+            "icon": "assets/svg/skills/express.svg",
+            "faClass": "fas fa-server"
+        },
+        {
+            "name": "MongoDB",
+            "category": "backend",
+            "description": "Flexible NoSQL database designed for high-volume, modern applications",
+            "icon": "assets/svg/skills/mongoDb.svg",
+            "faClass": "fas fa-database"
+        },
+        {
+            "name": "Mongoose",
+            "category": "backend",
+            "description": "Elegant MongoDB object modeling with schema validation for Node.js",
+            "icon": "assets/svg/skills/mongoDb.svg",
+            "faClass": "fas fa-database"
+        },
+        {
+            "name": "Firebase",
+            "category": "backend",
+            "description": "Comprehensive BaaS platform for real-time data, authentication, and hosting",
+            "icon": "assets/svg/skills/firebase.svg",
+            "faClass": "fas fa-fire"
+        },
+        {
+            "name": "Firebase Cloud",
+            "category": "backend",
+            "description": "Serverless cloud functions and scalable hosting infrastructure",
+            "icon": "assets/svg/skills/firebase.svg",
+            "faClass": "fas fa-cloud"
+        },
+        {
+            "name": "JWT",
+            "category": "backend",
+            "description": "Industry-standard tokens for secure, stateless authentication",
+            "icon": "assets/svg/skills/jwt.svg",
+            "faClass": "fas fa-key"
+        },
+        {
+            "name": "VS Code",
+            "category": "tools",
+            "description": "Feature-rich code editor with extensive extension ecosystem",
+            "icon": "assets/svg/skills/vscode.svg",
+            "faClass": "fas fa-code"
+        },
+        {
+            "name": "GitHub",
+            "category": "tools",
+            "description": "Industry-leading platform for version control and team collaboration",
+            "icon": "assets/svg/skills/github.svg",
+            "faClass": "fab fa-github"
+        },
+        {
+            "name": "Xcode",
+            "category": "tools",
+            "description": "Apple's integrated development environment for iOS and macOS apps",
+            "icon": "assets/svg/skills/xcode.svg",
+            "faClass": "fab fa-apple"
+        },
+        {
+            "name": "Android Studio",
+            "category": "tools",
+            "description": "Official IDE for Android app development and device testing",
+            "icon": "assets/svg/skills/android-studio.svg",
+            "faClass": "fab fa-android"
+        },
+        {
+            "name": "Capacitor",
+            "category": "tools",
+            "description": "Modern native runtime for deploying web apps to iOS and Android",
+            "icon": "assets/svg/skills/capacitor.svg",
+            "faClass": "fas fa-mobile-alt"
+        },
+        {
+            "name": "Cordova",
+            "category": "tools",
+            "description": "Mature platform for building hybrid mobile applications with web technologies",
+            "icon": "assets/svg/skills/cordova.svg",
+            "faClass": "fas fa-mobile"
+        },
+        {
+            "name": "JSON Server",
+            "category": "tools",
+            "description": "Lightweight mock REST API server for rapid frontend prototyping",
+            "icon": "assets/svg/skills/jwt.svg",
+            "faClass": "fas fa-server"
+        },
+        {
+            "name": "AnalogJS",
+            "category": "frontend",
+            "description": "Angular meta-framework enabling SSR, SSG, and full-stack capabilities",
+            "icon": "assets/svg/skills/analogjs.svg",
+            "faClass": "fab fa-angular"
+        }
+    ],
+    "experience": [
+        {
+            "id": "1",
+            "icon": "assets/svg/experience/quadralyst.svg",
+            "company": "Quadralyst Pvt. Ltd.",
+            "position": "Junior Software Developer",
+            "startDate": "2023-03",
+            "endDate": null,
+            "description": "Spearheading frontend development initiatives, driving technical excellence, and mentoring team members across multiple high-impact projects",
+            "responsibilities": [
+                "Architected and developed enterprise-grade web and mobile applications using Angular, Ionic, and TypeScript, serving thousands of active users",
+                "Engineered responsive, pixel-perfect UI/UX implementations with performance optimizations reducing load times significantly",
+                "Collaborated with cross-functional teams including designers, backend engineers, and stakeholders to deliver solutions aligned with business objectives",
+                "Mentored junior developers through code reviews, pair programming, and knowledge-sharing sessions to elevate team capabilities"
+            ],
+            "achievements": [
+                "Boosted application performance by 40% through lazy loading, code splitting, and strategic caching implementations",
+                "Successfully delivered 15+ production-ready projects on schedule and within budget, maintaining 100% client satisfaction",
+                "Reduced production bug reports by 60% by implementing comprehensive unit testing and end-to-end testing strategies"
+            ],
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                "Ionic",
+                "Capacitor",
+                "Cordova",
+                "RxJS",
+                "Angular Material",
+                "Firebase",
+                "Android Studio"
+            ],
+            "location": "Indore (M.P.)",
+            "companyUrl": "https://quadralyst.com/"
+        },
+        {
+            "id": "2",
+            "icon": "assets/svg/experience/stepping-stone.png",
+            "company": "The Stepping Stone",
+            "position": "Trainee",
+            "startDate": "2022-08",
+            "endDate": "2023-02",
+            "description": "Developed intuitive user interfaces and delivered enhanced user experiences for client-facing web applications",
+            "responsibilities": [
+                "Built responsive, mobile-first web applications using Angular and modern CSS frameworks including Bootstrap and SCSS",
+                "Integrated RESTful APIs and implemented efficient state management patterns for seamless data flow",
+                "Collaborated closely with UI/UX designers to translate Figma mockups into pixel-perfect, accessible components",
+                "Actively participated in agile ceremonies including sprint planning, daily standups, and retrospectives"
+            ],
+            "achievements": [
+                "Increased user engagement metrics by 35% through strategic UX enhancements and intuitive interface redesigns",
+                "Accelerated development velocity by 25% by architecting a reusable component library adopted across multiple projects"
+            ],
+            "technologies": [
+                "Angular",
+                "JavaScript",
+                "Bootstrap",
+                "SCSS",
+                "Node.js",
+                "Express",
+                "MongoDB"
+            ],
+            "location": "Indore (M.P.)",
+            "companyUrl": "https://steppingstone.in/"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "PartyTambola",
+            "description": "Mobile app to organize and play Tambola/Housie games with up to 1,000 players, for groups, businesses, and events, with engagement & rewards",
+            "longDescription": "PartyTambola brings the classic Tambola/Housie game into the digital age. Whether you're organizing for social groups, small businesses, HR teams, influencers, or family & friends, you can set up a game in just minutes...",
+            "technologies": ["Angular", "Android Studio", "XCode", "Ionic", "Firebase", "Capacitor", "RxJS"],
+            "features": ["Real-time gameplay with up to 1,000 players", "Customizable game setup", "Reward & prize integration"],
+            "imageUrl": "assets/svg/projects/partytambola.webp",
+            "faClass": "fas fa-gamepad",
+            "playStoreUrl": "https://play.google.com/store/apps/details?id=com.quadralyst.partytambola",
+            "appStoreUrl": "https://apps.apple.com/us/app/party-tambola-housie-game/id1498917095?ls=1",
+            "status": "completed",
+            "category": ["mobile"]
+        },
+        {
+            "id": "2",
+            "title": "Durud",
+            "description": "Intelligent warehouse management system engineered to streamline and automate book distribution operations across educational institutions",
+            "longDescription": "A purpose-built warehouse management solution that automates and optimizes end-to-end operations...",
+            "technologies": ["Angular", "TypeScript", "Firebase"],
+            "features": ["Real-time inventory tracking", "Order management", "Batch picking and packing optimizations"],
+            "imageUrl": "assets/svg/projects/durud.webp",
+            "faClass": "fas fa-warehouse",
+            "adminUrl": "https://durud-e7449.web.app/",
+            "status": "completed",
+            "category": ["web"]
+        },
+        {
+            "id": "3",
+            "title": "Bhautiki Plus",
+            "description": "Premier EdTech platform delivering comprehensive courses through disciplined, technology-enabled mentorship...",
+            "longDescription": "Bhautiki Plus is a leading education technology company committed to nurturing future engineers and medical professionals...",
+            "technologies": ["Angular", "Capacitor", "Firebase", "RxJS", "Ionic"],
+            "features": ["No-Phone Zone learning environment", "Comprehensive Mock Exams"],
+            "imageUrl": "assets/svg/projects/bhautiki-plus.png",
+            "faClass": "fas fa-book-open",
+            "adminUrl": "https://bhautiki-dev.firebaseapp.com/",
+            "userUrl": "https://student-app-3b632.web.app/",
+            "playStoreUrl": "https://play.google.com/store/apps/details?id=in.bhautikiplus.studentapp",
+            "status": "completed",
+            "category": ["web", "mobile"]
+        },
+        {
+            "id": "4",
+            "title": "Quantum Mosaic",
+            "description": "AI-powered investment platform designed to streamline deal execution and bridge the gap between strategic planning and operational execution...",
+            "longDescription": "Quantum Mosaic (QM) is a next-generation platform purpose-built for Limited Partners (LPs)...",
+            "technologies": ["Angular", "Firebase", "RxJS", "GenAI"],
+            "features": ["Deal evaluation acceleration", "Predictive insights"],
+            "imageUrl": "",
+            "faClass": "fas fa-chart-line",
+            "adminUrl": "https://qm-demo.web.app/",
+            "userUrl": "https://qm-demo.web.app/",
+            "status": "running",
+            "category": ["web"]
+        },
+        {
+            "id": "5",
+            "title": "Qasper",
+            "description": "AI-powered survey and analytics platform enabling structured data collection, automated reporting, and intelligent insights generation",
+            "longDescription": "Qasper is an intelligent survey and reporting solution empowering users to design, schedule, and deploy surveys...",
+            "technologies": ["Angular", "Firebase", "NgRx", "Angular Material"],
+            "features": ["Customizable survey forms", "Automated PDF and Excel report generation"],
+            "imageUrl": "assets/svg/projects/qasper.png",
+            "faClass": "fas fa-poll",
+            "adminUrl": "https://qasper-live.web.app/",
+            "userUrl": "https://qasper-live.web.app/",
+            "status": "completed",
+            "category": ["web"]
+        },
+        {
+            "id": "6",
+            "title": "Active Avenue",
+            "description": "Interactive educational platform delivering immersive physics learning experiences through dynamic simulations...",
+            "longDescription": "An innovative educational web application providing interactive physics simulations...",
+            "technologies": ["Angular", "Firebase", "TypeScript", "GenAI"],
+            "features": ["Interactive simulations", "Progress tracking"],
+            "imageUrl": "assets/svg/projects/active-avenue.png",
+            "faClass": "fas fa-atom",
+            "adminUrl": "https://active-avenue-dev.web.app/",
+            "userUrl": "https://lyvvib-dev.web.app/",
+            "status": "running",
+            "category": ["web"]
+        },
+        {
+            "id": "7",
+            "title": "GoWow – The Social Service App",
+            "description": "Social impact platform connecting verified NGOs, volunteers, and donors to drive meaningful contributions...",
+            "longDescription": "GoWow is a comprehensive social service ecosystem uniting three key stakeholders...",
+            "technologies": ["Angular", "Firebase", "Ionic", "Android Studio"],
+            "features": ["Verified NGO profiles", "Donate materials and support causes"],
+            "imageUrl": "assets/svg/projects/gowow.webp",
+            "faClass": "fas fa-hands-helping",
+            "playStoreUrl": "https://play.google.com/store/apps/details?id=com.quadralyst.GoWow&hl=en_IN",
+            "appStoreUrl": "https://apps.apple.com/us/app/gowow-the-social-service-app/id6745549820",
+            "status": "completed",
+            "category": ["mobile"]
+        },
+        {
+            "id": "8",
+            "title": "Mangosteen",
+            "description": "Digital ordering and management platform for a stylish café featuring global cuisine, healthy options, and an artistic dining ambiance",
+            "longDescription": "Digital platform powering Mangosteen Café's operations...",
+            "technologies": ["Angular", "Firebase", "Ionic"],
+            "features": ["Diverse menu with healthy options", "Order management"],
+            "imageUrl": "assets/svg/projects/mangosteen.jpeg",
+            "faClass": "fas fa-coffee",
+            "adminUrl": "https://mangosteen-cafe.web.app/",
+            "status": "running",
+            "category": ["web", "mobile"]
+        },
+        {
+            "id": "9",
+            "title": "Taskin",
+            "description": "Task marketplace platform connecting users with service providers through a transparent bidding system...",
+            "longDescription": "Taskin is a cross-platform mobile and web application enabling users to post domestic chores, personal errands...",
+            "technologies": ["Angular", "Firebase", "Ionic", "Capacitor"],
+            "features": ["Post tasks", "Bidding system", "Real-time notifications"],
+            "imageUrl": "",
+            "faClass": "fas fa-tasks",
+            "adminUrl": "https://taskindev-69c4f.web.app/",
+            "status": "completed",
+            "category": ["web", "mobile"]
+        }
+    ],
+    "education": [
+        {
+            "id": "1",
+            "institution": "Acropolis Technical Campus",
+            "degree": "Bachelor of Engineering",
+            "field": "Civil Engineering",
+            "startYear": 2013,
+            "endYear": 2017,
+            "grade": "7.29 CGPA",
+            "location": "Indore"
+        },
+        {
+            "id": "2",
+            "institution": "SVBP Higher Sec. School Kasrawad",
+            "degree": "12th (PCM)",
+            "field": "MP Board",
+            "startYear": 2011,
+            "endYear": 2012,
+            "grade": "85.4%",
+            "location": "Khargone (M.P.)"
+        }
+    ]
+}

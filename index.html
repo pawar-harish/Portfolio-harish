@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harish Pawar – Angular Developer with 3 years of experience. Skilled in Angular, TypeScript, HTML, CSS, and Git." />
+  <title>Harish Pawar | Angular Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>HP<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-greeting">
+          <span class="greeting-dot"></span>
+          Hello, I'm
+        </p>
+        <h1 class="hero-name">Harish Pawar</h1>
+        <h2 class="hero-role">
+          <span class="role-prefix">I build</span>
+          <span class="typed-text" id="typed-text"></span>
+          <span class="cursor-blink">|</span>
+        </h2>
+        <p class="hero-intro">
+          A passionate <strong>Angular Developer</strong> with <strong>3 years</strong> of experience crafting
+          high-performance web applications. I love turning complex problems into elegant,
+          responsive user interfaces.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/harish-pawar-65109a114" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Hharish28" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:harish28pawar@gmail.com" aria-label="Email" class="social-icon">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+        <p class="section-subtitle">A little bit about my journey and what drives me</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm <strong>Harish Pawar</strong>, a dedicated Angular Developer based in Indore, M.P.
+            With <strong>3 years of professional experience</strong>, I specialize in building
+            scalable, high-performance web applications using Angular and TypeScript.
+          </p>
+          <p>
+            I have worked on authentication systems, responsive UI components, performance
+            optimizations, and cross-functional team collaboration. I'm passionate about clean
+            code, intuitive UX, and staying up-to-date with the latest in web development.
+          </p>
+          <p>
+            When I'm not coding, you'll find me listening to music, traveling, or exploring new
+            technologies. I believe great software starts with a great developer experience.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-calendar-check"></i>
+              <div>
+                <strong>3 Years</strong>
+                <span>Experience</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-project-diagram"></i>
+              <div>
+                <strong>10+ Projects</strong>
+                <span>Delivered</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>B.E. Civil</strong>
+                <span>Engineering</span>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-flex;">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+        <div class="about-info-cards">
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt info-icon"></i>
+            <div>
+              <strong>Location</strong>
+              <span>Indore, M.P. - 452011</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-briefcase info-icon"></i>
+            <div>
+              <strong>Experience</strong>
+              <span>3 Years Professional</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-code info-icon"></i>
+            <div>
+              <strong>Specialization</strong>
+              <span>Frontend Development</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-language info-icon"></i>
+            <div>
+              <strong>Languages</strong>
+              <span>English, Hindi</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-heart info-icon"></i>
+            <div>
+              <strong>Interests</strong>
+              <span>Music, Travel, Coding</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-check-circle info-icon"></i>
+            <div>
+              <strong>Status</strong>
+              <span>Open to Opportunities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="accent">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I work with every day</p>
+      </div>
+      <div class="skills-filter" id="skills-filter">
+        <button class="filter-btn active" data-filter="all">All Skills</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="tools">Tools</button>
+      </div>
+
+      <div class="skills-grid" id="skills-container">
+        </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+        <p class="section-subtitle">Where I've worked and what I've done</p>
+      </div>
+      <div class="experience-timeline" id="experience-container">
+        </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <span class="accent">Projects</span></h2>
+        <p class="section-subtitle">Some of my recent work and open-source contributions</p>
+      </div>
+      <div class="projects-grid" id="projects-container">
+        </div>
+
+      <div class="projects-cta">
+        <a href="https://github.com/Hharish28" id="github-link-btn" target="_blank" rel="noopener" class="btn btn-secondary">
+          <i class="fab fa-github"></i> View All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Talk</span>
+        <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+        <p class="section-subtitle">Have a project in mind or just want to say hi? I'd love to hear from you!</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h3>Let's work together</h3>
+          <p>
+            I'm currently <span class="open-badge">Open to Work</span> and looking for exciting
+            opportunities. Whether it's a job offer, freelance project, or collaboration, drop me a
+            message!
+          </p>
+          <div class="contact-details">
+            <a href="mailto:harish28pawar@gmail.com" class="contact-detail-item">
+              <div class="cd-icon"><i class="fas fa-envelope"></i></div>
+              <div class="cd-text">
+                <strong>Email</strong>
+                <span>harish28pawar@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+917566696512" class="contact-detail-item">
+              <div class="cd-icon"><i class="fas fa-phone-alt"></i></div>
+              <div class="cd-text">
+                <strong>Phone</strong>
+                <span>+91 75666 96512</span>
+              </div>
+            </a>
+            <div class="contact-detail-item">
+              <div class="cd-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="cd-text">
+                <strong>Location</strong>
+                <span>Indore, M.P. - 452011</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://linkedin.com/in/harish-pawar-65109a114" target="_blank" rel="noopener" class="cs-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Hharish28" target="_blank" rel="noopener" class="cs-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="cs-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="footer-logo">
+          <span class="logo-bracket">&lt;</span>HP<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-text">
+          Designed &amp; built with <i class="fas fa-heart" style="color:#e74c3c"></i> by
+          <strong>Harish Pawar</strong>
+        </p>
+        <p class="footer-copy">© 2026 Harish Pawar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
