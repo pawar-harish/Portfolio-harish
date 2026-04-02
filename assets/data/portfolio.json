@@ -147,14 +147,6 @@
             "faClass": "fab fa-github"
         },
         {
-            "name": "Xcode",
-            "hidden": true,
-            "category": "tools",
-            "description": "Apple's integrated development environment for iOS and macOS apps",
-            "icon": "assets/svg/skills/xcode.svg",
-            "faClass": "fab fa-apple"
-        },
-        {
             "name": "Android Studio",
             "category": "tools",
             "description": "Official IDE for Android app development and device testing",
