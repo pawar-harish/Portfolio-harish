@@ -124,8 +124,11 @@ function renderProjects(projects) {
   const container = document.getElementById('projects-container');
   if (!container || !projects) return;
   
+  // Filter out hidden (commented-out) projects
+  const visibleProjects = projects.filter(p => !p.hidden);
+
   let html = '';
-  projects.forEach((proj, index) => {
+  visibleProjects.forEach((proj, index) => {
     const isFeatured = proj.status === 'running' ? 'project-card--featured' : '';
     const badgeHtml = proj.status === 'running' ? '<div class="project-featured-badge">Active</div>' : '';
     

@@ -194,9 +194,9 @@
             "id": "1",
             "icon": "assets/svg/experience/quadralyst.svg",
             "company": "Quadralyst Pvt. Ltd.",
-            "position": "Junior Software Developer",
-            "startDate": "2023-03",
-            "endDate": null,
+            "position": "Software Developer",
+            "startDate": "March 2023",
+            "endDate": "Present",
             "description": "Spearheading frontend development initiatives, driving technical excellence, and mentoring team members across multiple high-impact projects",
             "responsibilities": [
                 "Architected and developed enterprise-grade web and mobile applications using Angular, Ionic, and TypeScript, serving thousands of active users",
@@ -228,8 +228,8 @@
             "icon": "assets/svg/experience/stepping-stone.png",
             "company": "The Stepping Stone",
             "position": "Trainee",
-            "startDate": "2022-08",
-            "endDate": "2023-02",
+            "startDate": "July 2022",
+            "endDate": "December 2022",
             "description": "Developed intuitive user interfaces and delivered enhanced user experiences for client-facing web applications",
             "responsibilities": [
                 "Built responsive, mobile-first web applications using Angular and modern CSS frameworks including Bootstrap and SCSS",
@@ -270,19 +270,6 @@
             "category": ["mobile"]
         },
         {
-            "id": "2",
-            "title": "Durud",
-            "description": "Intelligent warehouse management system engineered to streamline and automate book distribution operations across educational institutions",
-            "longDescription": "A purpose-built warehouse management solution that automates and optimizes end-to-end operations...",
-            "technologies": ["Angular", "TypeScript", "Firebase"],
-            "features": ["Real-time inventory tracking", "Order management", "Batch picking and packing optimizations"],
-            "imageUrl": "assets/svg/projects/durud.webp",
-            "faClass": "fas fa-warehouse",
-            "adminUrl": "https://durud-e7449.web.app/",
-            "status": "completed",
-            "category": ["web"]
-        },
-        {
             "id": "3",
             "title": "Bhautiki Plus",
             "description": "Premier EdTech platform delivering comprehensive courses through disciplined, technology-enabled mentorship...",
@@ -298,8 +285,23 @@
             "category": ["web", "mobile"]
         },
         {
+            "id": "2",
+            "title": "Durud",
+            "hidden": true,
+            "description": "Intelligent warehouse management system engineered to streamline and automate book distribution operations across educational institutions",
+            "longDescription": "A purpose-built warehouse management solution that automates and optimizes end-to-end operations...",
+            "technologies": ["Angular", "TypeScript", "Firebase"],
+            "features": ["Real-time inventory tracking", "Order management", "Batch picking and packing optimizations"],
+            "imageUrl": "assets/svg/projects/durud.webp",
+            "faClass": "fas fa-warehouse",
+            "adminUrl": "https://durud-e7449.web.app/",
+            "status": "completed",
+            "category": ["web"]
+        },
+        {
             "id": "4",
             "title": "Quantum Mosaic",
+            "hidden": true,
             "description": "AI-powered investment platform designed to streamline deal execution and bridge the gap between strategic planning and operational execution...",
             "longDescription": "Quantum Mosaic (QM) is a next-generation platform purpose-built for Limited Partners (LPs)...",
             "technologies": ["Angular", "Firebase", "RxJS", "GenAI"],
@@ -314,6 +316,7 @@
         {
             "id": "5",
             "title": "Qasper",
+            "hidden": true,
             "description": "AI-powered survey and analytics platform enabling structured data collection, automated reporting, and intelligent insights generation",
             "longDescription": "Qasper is an intelligent survey and reporting solution empowering users to design, schedule, and deploy surveys...",
             "technologies": ["Angular", "Firebase", "NgRx", "Angular Material"],
@@ -328,6 +331,7 @@
         {
             "id": "6",
             "title": "Active Avenue",
+            "hidden": true,
             "description": "Interactive educational platform delivering immersive physics learning experiences through dynamic simulations...",
             "longDescription": "An innovative educational web application providing interactive physics simulations...",
             "technologies": ["Angular", "Firebase", "TypeScript", "GenAI"],
@@ -377,6 +381,45 @@
             "faClass": "fas fa-tasks",
             "adminUrl": "https://taskindev-69c4f.web.app/",
             "status": "completed",
+            "category": ["web", "mobile"]
+        },
+        {
+            "id": "10",
+            "title": "AirCrew",
+            "description": "AI-powered job interview training platform designed to help aspiring aircrew professionals prepare and ace their interviews with confidence",
+            "longDescription": "AirCrew is a specialized web application offering structured interview preparation for aviation industry roles...",
+            "technologies": ["Angular", "Firebase", "TypeScript"],
+            "features": ["Interview simulation", "Role-specific training modules", "Progress tracking"],
+            "imageUrl": "",
+            "faClass": "fas fa-plane",
+            "userUrl": "https://aircrew-dev.web.app/user/home",
+            "status": "completed",
+            "category": ["web", "mobile"]
+        },
+        {
+            "id": "11",
+            "title": "Bond Management",
+            "description": "E-Court bond management system developed for Indore Police Commissionarate to digitize and streamline legal bond processing workflows",
+            "longDescription": "A purpose-built digital platform for the Indore Police Commissionarate enabling efficient tracking and management of court bonds...",
+            "technologies": ["Angular", "Firebase", "TypeScript"],
+            "features": ["Digital bond records", "Case tracking", "Automated notifications"],
+            "imageUrl": "",
+            "faClass": "fas fa-gavel",
+            "adminUrl": "https://dcp-bond-mgmt.web.app/",
+            "status": "running",
+            "category": ["web"]
+        },
+        {
+            "id": "12",
+            "title": "Othentica",
+            "description": "Smart gift card management platform enabling users to organize, track, and redeem gift cards with exclusive deals and offers",
+            "longDescription": "Othentica is a modern web application that simplifies gift card management, helping users keep track of balances, expiry dates, and discover deals...",
+            "technologies": ["Angular", "Firebase", "TypeScript"],
+            "features": ["Gift card management", "Deal discovery", "Balance tracking"],
+            "imageUrl": "",
+            "faClass": "fas fa-gift",
+            "userUrl": "https://gift-dev-1c607.web.app/",
+            "status": "running",
             "category": ["web", "mobile"]
         }
     ],
