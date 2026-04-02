@@ -48,9 +48,11 @@ function renderSkills(skills) {
   const container = document.getElementById('skills-container');
   if (!container) return;
   
+  const visibleSkills = skills.filter(s => !s.hidden);
+  
   const renderCards = (filter) => {
     container.innerHTML = '';
-    const filtered = filter === 'all' ? skills : skills.filter(s => s.category === filter);
+    const filtered = filter === 'all' ? visibleSkills : visibleSkills.filter(s => s.category === filter);
     
     filtered.forEach((skill, index) => {
       const delay = (index % 10) * 0.05; // Staggered animation
@@ -90,28 +92,21 @@ function renderExperience(experience) {
   
   let html = '';
   experience.forEach(exp => {
-    const defaultIcon = 'fas fa-briefcase';
-    const iconHtml = `<i class="${defaultIcon}" style="color:var(--primary); font-size: 1.2rem;"></i>`;
     const techTags = exp.technologies.map(t => `<span>${t}</span>`).join('');
     const endDate = exp.endDate ? exp.endDate : 'Present';
     
     html += `
-      <div class="exp-item reveal-left">
-        <div class="exp-icon">
-           <img src="${exp.icon}" alt="${exp.company} icon" onerror="this.outerHTML='${iconHtml}'">
+      <div class="exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-title">${exp.position}</h3>
+            <div class="exp-company">${exp.company} • ${exp.location}</div>
+          </div>
+          <div class="exp-date">${exp.startDate} – ${endDate}</div>
         </div>
-        <div class="exp-content">
-          <div class="exp-header">
-            <div>
-              <h3 class="exp-title">${exp.position}</h3>
-              <div class="exp-company">${exp.company} • ${exp.location}</div>
-            </div>
-            <div class="exp-date">${exp.startDate} – ${endDate}</div>
-          </div>
-          <p class="exp-desc">${exp.description}</p>
-          <div class="exp-tech">
-            ${techTags}
-          </div>
+        <p class="exp-desc">${exp.description}</p>
+        <div class="exp-tech">
+          ${techTags}
         </div>
       </div>
     `;

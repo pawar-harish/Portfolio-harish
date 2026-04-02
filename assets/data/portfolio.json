@@ -148,6 +148,7 @@
         },
         {
             "name": "Xcode",
+            "hidden": true,
             "category": "tools",
             "description": "Apple's integrated development environment for iOS and macOS apps",
             "icon": "assets/svg/skills/xcode.svg",
