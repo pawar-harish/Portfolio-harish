@@ -57,7 +57,7 @@ import { ScrollRevealDirective } from '../directives/scroll-reveal.directive';
               </div>
             </div>
             
-            <a href="assets/HarishPResume.pdf" download="HarishPResume.pdf" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-flex;">
+            <a href="assets/Harish28_P.pdf" download="Harish28_P.pdf" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-flex;">
               <i class="fas fa-download"></i> Download CV
             </a>
           </div>
@@ -81,7 +81,7 @@ import { ScrollRevealDirective } from '../directives/scroll-reveal.directive';
               <i class="fas fa-code info-icon"></i>
               <div>
                 <strong>Specialization</strong>
-                <span>Frontend Development</span>
+                <span>Full Stack Development</span>
               </div>
             </div>
             <div class="info-card">

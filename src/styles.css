@@ -1,5 +1,5 @@
 /* ============================================================
-   PORTFOLIO.CSS â€” Harish Pawar | Angular Developer
+   PORTFOLIO.CSS â€” Harish Pawar | MEAN Stack Developer
    Light theme with blue accents, smooth animations
    ============================================================ */
 
@@ -309,6 +309,7 @@ input, textarea, select { font-family: inherit; }
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .role-prefix { color: var(--text-secondary); }
 .typed-text {
@@ -317,16 +318,20 @@ input, textarea, select { font-family: inherit; }
   background: var(--primary-bg);
   padding: 0.2rem 0.8rem;
   border-radius: 8px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-width: 175px;
+  text-align: left;
 }
-.fade-text {
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  opacity: 1;
-  transform: translateY(0);
+.typing-cursor {
+  color: var(--primary);
+  margin-left: 3px;
+  animation: blink 0.8s infinite;
+  font-weight: 400;
 }
-.fade-text.fade-out {
-  opacity: 0;
-  transform: translateY(8px);
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 .hero-intro {
   font-size: 1.05rem;

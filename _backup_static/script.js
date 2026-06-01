@@ -1,5 +1,5 @@
 /* ============================================================
-   PORTFOLIO.JS — Harish Pawar | Angular Developer
+   PORTFOLIO.JS — Harish Pawar | MEAN Stack Developer
    Smooth scroll, typed text, dynamic JSON rendering, form, back-to-top
    ============================================================ */
 

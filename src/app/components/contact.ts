@@ -51,6 +51,9 @@ import { ScrollRevealDirective } from '../directives/scroll-reveal.directive';
               <a [href]="personalInfo.linkedin" target="_blank" rel="noopener" class="cs-link" aria-label="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
               </a>
+              <a [href]="'mailto:' + personalInfo.email" aria-label="Email" class="cs-link">
+                <i class="fas fa-envelope"></i>
+              </a>
             </div>
           </div>
         </div>

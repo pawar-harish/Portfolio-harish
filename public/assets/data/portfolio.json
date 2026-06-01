@@ -12,11 +12,11 @@
         "bio": "A passionate Web & Mobile App Developer with experience crafting high-performance applications. I love turning complex problems into elegant, responsive user interfaces. I specialize in building scalable applications using Angular, Ionic, and TypeScript.",
         "profileImage": "",
         "resumeUrl": "",
-        "yearsOfExperience": 3,
+        "yearsOfExperience": "3+",
         "statistics": {
-            "projectsCompleted": 15,
-            "happyClients": 12,
-            "technologiesMastered": 10
+            "projectsCompleted": 10,
+            "happyClients": 8,
+            "technologiesMastered": 8
         }
     },
     "skills": [
@@ -199,7 +199,7 @@
             ],
             "achievements": [
                 "Boosted application performance by 40% through lazy loading, code splitting, and strategic caching implementations",
-                "Successfully delivered 15+ production-ready projects on schedule and within budget, maintaining 100% client satisfaction",
+                "Successfully delivered 10+ production-ready projects on schedule and within budget, maintaining 100% client satisfaction",
                 "Reduced production bug reports by 60% by implementing comprehensive unit testing and end-to-end testing strategies"
             ],
             "technologies": [
@@ -209,6 +209,8 @@
                 "Capacitor",
                 "Cordova",
                 "RxJS",
+                "Node.js",
+                "Express.js",
                 "Angular Material",
                 "Firebase",
                 "Android Studio"
@@ -249,6 +251,19 @@
     ],
     "projects": [
         {
+            "id": "13",
+            "title": "Department of Physics – IIT Indore",
+            "description": "Official Information Portal for the Department of Physics at IIT Indore, managing academic resources, research portfolios, and departmental announcements.",
+            "longDescription": "The official web portal for the Department of Physics at the Indian Institute of Technology (IIT) Indore. Built as a high-performance web platform to handle academic course syllabus, research publications, faculty profiles, and student notifications seamlessly.",
+            "technologies": ["Angular", "Node.js", "Express.js", "MongoDB", "Mongoose", "TypeScript", "SCSS"],
+            "features": ["Faculty research profiles and publications management", "Student notice board and real-time announcements", "Syllabus and academic course structure listing"],
+            "imageUrl": "",
+            "faClass": "fas fa-atom",
+            "userUrl": "https://betaphysics.iiti.ac.in",
+            "status": "completed",
+            "category": ["web"]
+        },
+        {
             "id": "1",
             "title": "PartyTambola",
             "description": "Mobile app to organize and play Tambola/Housie games with up to 1,000 players, for groups, businesses, and events, with engagement & rewards",
@@ -274,6 +289,20 @@
             "adminUrl": "https://bhautiki-dev.firebaseapp.com/",
             "userUrl": "https://student-app-3b632.web.app/",
             "playStoreUrl": "https://play.google.com/store/apps/details?id=in.bhautikiplus.studentapp",
+            "status": "completed",
+            "category": ["web", "mobile"]
+        },
+        {
+            "id": "14",
+            "title": "Credent",
+            "description": "Premium Asset Management cross-platform application designed to streamline asset tracking, audits, maintenance schedules, and resource planning.",
+            "longDescription": "Credent is a high-performance cross-platform asset management solution built to simplify tracking of enterprise assets. Empowering businesses to conduct inventory audits, log maintenance, track ownership, and generate compliance reports efficiently.",
+            "technologies": ["Angular", "Ionic", "Capacitor", "TypeScript", "SCSS", "RxJS", "Firebase"],
+            "features": ["Real-time asset tracking and history log", "Inventory audit scheduling and scanning", "Maintenance ticket logging and tracking"],
+            "imageUrl": "",
+            "faClass": "fas fa-briefcase",
+            "playStoreUrl": "https://play.google.com/store/apps/details?id=com.quadralyst.credent&hl=en_IN&pli=1",
+            "appStoreUrl": "https://apps.apple.com/us/app/credent-assets/id6746838684",
             "status": "completed",
             "category": ["web", "mobile"]
         },

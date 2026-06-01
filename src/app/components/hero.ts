@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, signal, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -22,10 +22,12 @@ import { CommonModule } from '@angular/common';
           <h1 class="hero-name">Harish Pawar</h1>
           <h2 class="hero-role">
             <span class="role-prefix">I build</span>
-            <span class="typed-text fade-text" [class.fade-out]="isFading">{{ currentPhrase }}</span>
+            <span class="typed-text">
+              {{ displayText() }}<span class="typing-cursor">|</span>
+            </span>
           </h2>
           <p class="hero-intro">
-            A passionate <strong>Angular Developer</strong> with <strong>3 years</strong> of experience crafting
+            A passionate <strong>MEAN Stack Developer</strong> with <strong>3+ years</strong> of experience crafting
             high-performance web applications. I love turning complex problems into elegant,
             responsive user interfaces.
           </p>
@@ -51,8 +53,7 @@ import { CommonModule } from '@angular/common';
   `
 })
 export class HeroComponent implements OnInit, OnDestroy {
-  currentPhrase = '';
-  isFading = false;
+  displayText = signal('');
   private phrases = [
     'Angular Apps',
     'Web Interfaces',
@@ -61,26 +62,58 @@ export class HeroComponent implements OnInit, OnDestroy {
     'TypeScript Code',
   ];
   private phraseIdx = 0;
-  private intervalId?: any;
+  private timerId?: any;
+
+  constructor(private cdr: ChangeDetectorRef) {}
 
   ngOnInit(): void {
-    this.currentPhrase = this.phrases[0];
-    this.intervalId = setInterval(() => this.nextPhrase(), 2500);
+    this.startTypewriter();
   }
 
   ngOnDestroy(): void {
-    if (this.intervalId) {
-      clearInterval(this.intervalId);
+    this.clearTimer();
+  }
+
+  private clearTimer(): void {
+    if (this.timerId) {
+      clearTimeout(this.timerId);
+      this.timerId = undefined;
     }
   }
 
-  nextPhrase(): void {
-    this.isFading = true;
-    setTimeout(() => {
-      this.phraseIdx = (this.phraseIdx + 1) % this.phrases.length;
-      this.currentPhrase = this.phrases[this.phraseIdx];
-      this.isFading = false;
-    }, 400); // Matches CSS transition duration
+  private startTypewriter(): void {
+    let charIdx = 0;
+    let isDeleting = false;
+
+    const type = () => {
+      const currentWord = this.phrases[this.phraseIdx];
+      
+      if (isDeleting) {
+        this.displayText.set(currentWord.substring(0, charIdx - 1));
+        charIdx--;
+      } else {
+        this.displayText.set(currentWord.substring(0, charIdx + 1));
+        charIdx++;
+      }
+
+      // Explicitly mark for checking in Zoneless/OnPush setups
+      this.cdr.markForCheck();
+
+      let typeSpeed = isDeleting ? 40 : 80;
+
+      if (!isDeleting && charIdx === currentWord.length) {
+        typeSpeed = 1800; // Pause at end of word
+        isDeleting = true;
+      } else if (isDeleting && charIdx === 0) {
+        isDeleting = false;
+        this.phraseIdx = (this.phraseIdx + 1) % this.phrases.length;
+        typeSpeed = 400; // Pause when empty
+      }
+
+      this.timerId = setTimeout(type, typeSpeed);
+    };
+
+    type();
   }
 
   scrollTo(selector: string, event: Event): void {

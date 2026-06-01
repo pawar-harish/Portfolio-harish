@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, shareReplay } from 'rxjs';
+import { Observable, shareReplay, observeOn, asyncScheduler } from 'rxjs';
 
 export interface PersonalInfo {
   name: string;
@@ -15,7 +15,7 @@ export interface PersonalInfo {
   bio: string;
   profileImage: string;
   resumeUrl: string;
-  yearsOfExperience: number;
+  yearsOfExperience: any;
   statistics: {
     projectsCompleted: number;
     happyClients: number;
@@ -99,6 +99,6 @@ export class PortfolioService {
         shareReplay(1)
       );
     }
-    return this.portfolioData$;
+    return this.portfolioData$.pipe(observeOn(asyncScheduler));
   }
 }
