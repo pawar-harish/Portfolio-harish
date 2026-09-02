@@ -57,9 +57,9 @@ import { ScrollRevealDirective } from '../directives/scroll-reveal.directive';
               </div>
             </div>
             
-            <a href="assets/Harish28_P.pdf" download="Harish28_P.pdf" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-flex;">
-              <i class="fas fa-download"></i> Download CV
-            </a>
+            // <a href="assets/Harish28_P.pdf" download="Harish28_P.pdf" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-flex;">
+            //   <i class="fas fa-download"></i> Download CV
+            // </a>
           </div>
           
           <div class="about-info-cards" appScrollReveal="reveal-right">
